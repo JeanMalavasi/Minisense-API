@@ -14,7 +14,7 @@
 - [Tecnologias](#-tecnologias)
 - [Funcionalidades](#-funcionalidades)
 - [Endpoints de teste](#-endpoints-de-teste)
-- [Problemas a serem resolvidos](#-endpoints-de-teste)
+- [Problemas a serem resolvidos](#-problemas-a-serem-resolvidos)
 
 
 ### ✔️ Objetivo
