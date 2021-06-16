@@ -79,11 +79,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Cadastro de usuário
 - [x] Recupera todos usuários
 - [x] Recupera um usuário
-- [x] Recupera todos sensores de um usuario
+- [x] Recupera todos sensores de um usuário
 - [x] Deleta um usuário
 - [x] Atualiza um usuário
 ##### Autenticação
 - [x] Login de usuário
+Nesse passo é gerado um token de segurança, que deve ser enviado ao realizar as demais requisições, cm exceção da criação de usuário 
 ##### Sensor
 - [x] Cadastro de sensores
 - [x] Recupera todos sensores
@@ -91,8 +92,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Recupera todos sensores de um usuário
 - [x] Recupera todos streams de um sensor
 - [x] Recupera os ultimos 5 dados de sensor de um cada stream
-- [x] Deleta um sensore
-- [x] Atualiza um sensore
+- [x] Deleta um sensor
+- [x] Atualiza um sensor
 ##### Unidade de medida
 - [x] Cadastro de unidade de medida
 - [x] Recupera todas unidades de medida
