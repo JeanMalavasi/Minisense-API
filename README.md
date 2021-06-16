@@ -114,8 +114,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Deleta um dado de sensor
 - [x] Atualiza um dado de sensor
 ### 🔴 Endpoints-de-teste
-- [Insomnia](https://drive.google.com/file/d/15Y7nrjibb1M7GrPjGxFm54aAi0bV7PEJ/view?usp=sharing)
-- [Swagger](https://drive.google.com/file/d/15y4VYSgS-tPTtMBIyCW-U1Xu7u59A5AJ/view?usp=sharing)
+- [Insomnia - Arquivo JSON](https://drive.google.com/file/d/15Y7nrjibb1M7GrPjGxFm54aAi0bV7PEJ/view?usp=sharing)
+- [Swagger - Arquivo YAML](https://drive.google.com/file/d/15y4VYSgS-tPTtMBIyCW-U1Xu7u59A5AJ/view?usp=sharing)
 
 ### 🔴 Problemas a serem resolvidos
 - A api foi projetada para apenas adminstradores poderem registrar unidades de medida, Usuarios comums, não devem ter acesso as rotas de Criar, Atualizar e Deletar, como não descobri ainda como restringir tais rotas apenas para os usuarios comuns, ainda não foi implementado o Delete e Update.
