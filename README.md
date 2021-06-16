@@ -32,7 +32,7 @@ API desenvolvida com fins de atender serviços que realizem a gestão de sensore
 
 ### 🗄️ Criando banco de dados e sua conexão
 	
-#### Mysql Command-Line
+##### Mysql Command-Line - Criando Banco minisense
 <ol>
 	<li>Pressione windows ou clique no menu iniciar</li>
 	<li>Digite e clique: mysql command-line</li>
@@ -41,7 +41,7 @@ API desenvolvida com fins de atender serviços que realizem a gestão de sensore
 	<li>Execute o comando: show databases, afim de verificar a existencia do banco</li>	
 </ol>
 
-#### Mysql Workbench
+##### Mysql Workbench - Criando conexão
 <ol>
 	<li>Pressione windows ou clique no menu iniciar</li>
 	<li>Digite e clique: mysql workbench</li>
