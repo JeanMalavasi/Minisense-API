@@ -84,7 +84,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Atualiza um usuário
 ##### Autenticação
 - [x] Login de usuário
-Nesse passo é gerado um token de segurança, que deve ser enviado ao realizar as demais requisições, cm exceção da criação de usuário 
+Nesse passo é gerado um token de segurança, que deve ser enviado ao realizar as demais requisições, cm exceção da criação de usuário.
 ##### Sensor
 - [x] Cadastro de sensores
 - [x] Recupera todos sensores
@@ -116,7 +116,7 @@ Nesse passo é gerado um token de segurança, que deve ser enviado ao realizar a
 - [x] Atualiza um dado de sensor
 ### 🔴 Endpoints-de-teste
 - [Insomnia - Arquivo JSON](https://drive.google.com/file/d/15Y7nrjibb1M7GrPjGxFm54aAi0bV7PEJ/view?usp=sharing)
-- [Swagger - Arquivo YAML](https://drive.google.com/file/d/15y4VYSgS-tPTtMBIyCW-U1Xu7u59A5AJ/view?usp=sharing)
+- [Swagger - Arquivo YAML](https://drive.google.com/file/d/1VSSfGm3vLmMk0fFpy8JjnfOsEhX0fT4u/view?usp=sharing)
 
 ### 🔴 Problemas a serem resolvidos
 - A api foi projetada para apenas adminstradores poderem registrar unidades de medida, Usuarios comums, não devem ter acesso as rotas de Criar, Atualizar e Deletar, como não descobri ainda como restringir tais rotas apenas para os usuarios comuns, ainda não foi implementado o Delete e Update.

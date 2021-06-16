@@ -28,6 +28,7 @@
     "@nestjs/passport": "^7.1.5",
     "@nestjs/platform-express": "^7.6.15",
     "@nestjs/sequelize": "^0.2.0",
+    "bcrypt": "^5.0.1",
     "class-transformer": "0.2.3",
     "class-validator": "0.12.2",
     "mysql2": "^2.2.5",

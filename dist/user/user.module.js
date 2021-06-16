@@ -13,6 +13,7 @@ const user_controller_1 = require("./user.controller");
 const sequelize_1 = require("@nestjs/sequelize");
 const user_model_1 = require("./user.model");
 const emailIsUniqueValidator_pipe_1 = require("./pipes/emailIsUniqueValidator.pipe");
+const bcryptPasswordTransform_pipe_1 = require("./pipes/bcryptPasswordTransform.pipe");
 let UserModule = class UserModule {
 };
 UserModule = __decorate([
@@ -24,6 +25,7 @@ UserModule = __decorate([
             user_controller_1.UserController
         ],
         providers: [
+            bcryptPasswordTransform_pipe_1.BcryptPasswordTransform,
             emailIsUniqueValidator_pipe_1.IsEmailUniqueConstranint,
             user_service_1.UserService,
         ],

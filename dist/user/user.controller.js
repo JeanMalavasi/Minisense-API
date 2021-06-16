@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserController = void 0;
 const common_1 = require("@nestjs/common");
 const app_controller_1 = require("../app.controller");
+const bcryptPasswordTransform_pipe_1 = require("./pipes/bcryptPasswordTransform.pipe");
 const user_service_1 = require("./user.service");
 const userValidator_model_1 = require("./userValidator.model");
 let UserController = class UserController {
@@ -118,7 +119,7 @@ __decorate([
 __decorate([
     app_controller_1.Public(),
     common_1.Post(),
-    __param(0, common_1.Body()), __param(1, common_1.Res()),
+    __param(0, common_1.Body(new bcryptPasswordTransform_pipe_1.BcryptPasswordTransform())), __param(1, common_1.Res()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [userValidator_model_1.UserValidator, Object]),
     __metadata("design:returntype", Promise)

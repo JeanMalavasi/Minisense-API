@@ -1,5 +1,6 @@
 import { Body, Controller, Delete, Get, HttpStatus, NotFoundException, Param, Post, Put, Res } from "@nestjs/common";
 import { Public } from "src/app.controller";
+import { BcryptPasswordTransform } from "./pipes/bcryptPasswordTransform.pipe";
 import { UserService } from "./user.service";
 import { UserValidator } from "./userValidator.model";
 
@@ -51,7 +52,7 @@ export class UserController {
 
     @Public()
     @Post()
-    async create(@Body() body: UserValidator, @Res() res) {
+    async create(@Body(new BcryptPasswordTransform()) body: UserValidator, @Res() res) {
         const userCreated = await this.userService.create(body)
         res.status(HttpStatus.CREATED)
             .location(`/user/${body.email}`)

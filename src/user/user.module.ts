@@ -4,6 +4,7 @@ import { UserController } from './user.controller';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { User } from './user.model';
 import { IsEmailUniqueConstranint } from './pipes/emailIsUniqueValidator.pipe';
+import { BcryptPasswordTransform } from './pipes/bcryptPasswordTransform.pipe';
 
 @Module({
     imports: [
@@ -13,6 +14,7 @@ import { IsEmailUniqueConstranint } from './pipes/emailIsUniqueValidator.pipe';
         UserController
     ],
     providers: [
+        BcryptPasswordTransform,
         IsEmailUniqueConstranint,
         UserService,
     ],
