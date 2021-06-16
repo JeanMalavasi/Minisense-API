@@ -19,7 +19,7 @@
 
 ### ✔️ Objetivo
 <p> 
-API desenvolvida com fins de atender serviços que realizem a gestão de sensores IoT, ao ser utilizada, ela permitirá que o usuario, após logado, obtenha a informações de cada sensor em seu nome, dando a possibilidade de configuração e manutenção dos sensores de maneira simplificada.
+API desenvolvida com fins de atender serviços que realizem a gestão de sensores IoT ao ser utilizada, ela permitirá que o usuario, após logado, obtenha a informações de cada sensor em seu nome, dando a possibilidade de configuração e manutenção dos sensores de maneira simplificada.
 <p>
 
 ### ✔️ Pré-requisitos
@@ -82,13 +82,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Recupera todos sensores de um usuario
 - [x] Deleta um usuário
 - [x] Atualiza um usuário
-##### Authenticação
+##### Autenticação
 - [x] Login de usuário
 ##### Sensor
 - [x] Cadastro de sensores
 - [x] Recupera todos sensores
 - [x] Recupera um sensor
-- [x] Recupera todos sensores de um usuario
+- [x] Recupera todos sensores de um usuário
 - [x] Recupera todos streams de um sensor
 - [x] Recupera os ultimos 5 dados de sensor de um cada stream
 - [x] Deleta um sensore
@@ -119,4 +119,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### 🔴 Problemas a serem resolvidos
 - A api foi projetada para apenas adminstradores poderem registrar unidades de medida, Usuarios comums, não devem ter acesso as rotas de Criar, Atualizar e Deletar, como não descobri ainda como restringir tais rotas apenas para os usuarios comuns, ainda não foi implementado o Delete e Update.
-- A api deve realizar a contagem dos dados associados a um stream em determinados momentos, todavia, a bliblioteca utilizada para conectar-se ao banco (sequelize-typescript), tem documentação vaga, na implementação foi encontrada problemas, era feita a contagem correta, mas não era exibido mais que um elemente de associado a aquela informação.
+- A api deve realizar a contagem dos dados associados a um stream em determinados momentos, todavia, a bliblioteca utilizada para conectar-se ao banco (sequelize-typescript), tem documentação vaga, na implementação foram encontrados problemas, era feita a contagem correta, mas não era exibido mais que um elemente de associado a aquela informação.
