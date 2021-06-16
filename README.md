@@ -13,7 +13,8 @@
 - [Rodando o BackEnd](#%EF%B8%8F-rodando-o-backend)
 - [Tecnologias](#-tecnologias)
 - [Funcionalidades](#-funcionalidades)
-- [Endpoints-de-teste](#-endpoints-de-teste)
+- [Endpoints de teste](#-endpoints-de-teste)
+- [Problemas a serem resolvidos](#-endpoints-de-teste)
 
 
 ### ✔️ Objetivo
@@ -115,3 +116,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🔴 Endpoints-de-teste
 - [Insomnia](https://drive.google.com/file/d/15Y7nrjibb1M7GrPjGxFm54aAi0bV7PEJ/view?usp=sharing)
 - [Swagger](https://drive.google.com/file/d/15y4VYSgS-tPTtMBIyCW-U1Xu7u59A5AJ/view?usp=sharing)
+
+### 🔴 Problemas a serem resolvidos
+- A api foi projetada para apenas adminstradores poderem registrar unidades de medida, Usuarios comums, não devem ter acesso as rotas de Criar, Atualizar e Deletar, como não descobri ainda como restringir tais rotas apenas para os usuarios comuns, ainda não foi implementado o Delete e Update.
+- A api deve realizar a contagem dos dados associados a um stream em determinados momentos, todavia, a bliblioteca utilizada para conectar-se ao banco (sequelize-typescript), tem documentação vaga, na implementação foi encontrada problemas, era feita a contagem correta, mas não era exibido mais que um elemente de associado a aquela informação.
