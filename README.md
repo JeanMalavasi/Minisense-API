@@ -25,9 +25,9 @@ API desenvolvida com fins de atender serviços que realizem a gestão de sensore
 ### ✔️ Pré-requisitos
 <p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
 <p align="center">
-	<a href="https://nodejs.org/en/">Node.js</a> •
+	<a href="https://nodejs.org/en/">NodeJs</a> •
  	<a href="https://dev.mysql.com/downloads/installer/">Mysql</a> •
- 	<a href="https://docs.nestjs.com/">Nest.js</a> 
+ 	<a href="https://docs.nestjs.com/">NestJs</a> 
 </p>
 
 ### 🗄️ Criando banco de dados e sua conexão
