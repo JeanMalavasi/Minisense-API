@@ -47,7 +47,7 @@ API desenvolvida com fins de atender serviços que realizem a gestão de sensore
 	<li>Digite e clique: mysql workbench</li>
 	<li>Com o programa aberto crie uma conexão, clicando no simbolo '+', ao lado da frase MySQL connections</li>
 	<li>No campo connection name, atribua: minisense</li>
-	<li>No campo port, atribua: 3306'</li>
+	<li>No campo port, atribua: 3306</li>
  	<liNo campo username, atribua: root</li>
 	<li>Caso os campos: port e username, não puderem receber estes valores, e/ou sua senha para root ser diferente de 'admin', lembre-se de alterar o arquivo '.env', mais explicaçoes sobre isso, no: 'Rodando-o-BackEnd </li>	
 </ol>
